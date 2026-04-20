@@ -6,7 +6,7 @@ This project focuses on **predicting obesity levels** based on lifestyle, eating
 The goal of this project is to analyze factors influencing obesity and build a predictive model for multi-class classification.
 
 The workflow includes:
-- Data preprocessing and feature engineering
+- Data preprocessing and encoding
 - Exploratory Data Analysis (EDA)
 - Model training and evaluation
 
@@ -20,11 +20,10 @@ The workflow includes:
 The dataset includes demographic data, eating habits, and lifestyle features used to predict obesity levels.
 
 ## Models Used
-- Logistic Regression
+- XGBoost
 - Decision Trees
 - Random Forest
 - Support Vector Machines (SVM)
-- XGBoost
 - Neural Networks (RSNNS, nnet)
 
 ## Results
@@ -38,7 +37,7 @@ The dataset includes demographic data, eating habits, and lifestyle features use
 ### Model Comparison
 - **Random Forest:** 95.95% accuracy, AUC: 0.999  
 - **Decision Tree:** 92.38% accuracy  
-- **SVM:** 81.67% accuracy (struggled with complex class boundaries)  
+- **SVM:** 81.67% accuracy
 
 ### Neural Networks
 - **nnet:** 95% accuracy, Kappa: 0.9416  
